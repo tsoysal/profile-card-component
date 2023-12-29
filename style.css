@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
     min-height: 100vh;
     background-color: hsl(185, 75%, 39%);
@@ -23,6 +25,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
+    margin: 0 10px;
 }
 
 .banner {
@@ -58,10 +61,12 @@ body {
 }
 
 .statics-container .numbers {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.1em;
 }
 
 .statics-container .label {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8em;
     letter-spacing: 2px;
 }
